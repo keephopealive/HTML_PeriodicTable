@@ -1,0 +1,88 @@
+body{
+	max-width: 1650px;
+	min-width: 1650px;
+}
+.top-row{
+	color: red;
+}
+.row-height{
+	height: 80px;
+}
+.size{
+	height:80px;
+	width: 70px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 2px;
+	padding: 2px;
+	color: rgb(25,19,182); /*Blue*/
+	font-size: 20px;
+	border: 1px solid rgb(128,128,128);
+}
+.right-margin{
+	margin-right: 20px;
+}
+.size-no-color{
+	height:80px;
+	width: 70px;
+	text-align: center;
+	vertical-align: top;
+	margin: 2px;
+	padding: 2px;
+	border: 1px solid white;
+}
+.row{
+	vertical-align: top;
+	display: inline-block;
+}
+.size-column-1{
+	height:80px;
+	width: 70px;
+}
+
+#column-1a{
+	color: red;
+
+}
+.no-border{
+	border: 1px solid white;
+}
+.red{
+	color: red;
+}
+#middle-row{
+	vertical-align: top;
+}
+.margin-down{
+}
+#column-2a .size, #column-2b .size{
+	background-color: rgb(104,155,255); /*BLUE*/
+}
+#column-3 .size, #column-4 .size,
+#column-5 .size, #column-6 .size,
+#column-7 .size, #column-8 .size,
+#column-9 .size, #column-10 .size,
+#column-11 .size, #column-12 .size{
+	background-color: rgb(253,154,152); /*PURPLE*/
+}
+
+#column-13 .size, #column-14 .size,
+#column-15 .size, #column-16 .size,
+#column-17 .size, #column-18 .size{
+	background-color: rgb(254,203,0); /*YELLOW*/
+}
+
+#bottom-row-A{
+	margin-top: 20px;
+}
+
+#bottom-row-A .size, #bottom-row-B .size{
+	background-color: rgb(31,202,33); /*GREEN*/
+}
+.extended{
+	margin-left: 95px;
+}
+
+#bottom-row-A, #bottom-row-B{
+	margin-left: 6px;
+}
